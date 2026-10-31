@@ -1,5 +1,11 @@
 {
   "outputDirectory": "site",
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": true,
+  "redirects": [
+    { "source": "/tax-advisory-planning", "destination": "/tax-advisory/", "permanent": false }
+  ],
+  "headers": [
+    { "source": "/(.*)", "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }] }
+  ]
 }
