@@ -13,6 +13,7 @@ scripts/
   clean_mirror.py         turns a raw site download into site/ (fixes file names and links)
   fetch_missing.sh        downloads the 12 files the downloader can't see (see below)
   mirror.sh               full re-download + clean + fetch (overwrites site/)
+CHANGELOG.md              every change made vs. the live site — add to it when you edit
 vercel.json               Vercel settings: serve site/, clean URLs, keep out of search engines
 ```
 
